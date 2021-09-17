@@ -11,11 +11,12 @@ static boolean gameNotFinished= true;
 			while(gameNotFinished)
 				{
 					User.X();
-					Check.isWonGame();
 					Board.displayBoard();
+					Check.isWonGame();
+					
 					User.O();
-					Check.isWonGame();
 					Board.displayBoard();
+					Check.isWonGame();
 			}
 
 	}

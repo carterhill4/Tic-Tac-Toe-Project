@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class User
 	{
 		public static void X()
@@ -87,6 +86,5 @@ public class User
 				Board.board[2][2] = "O";
 			}
 		}
-			
-						
+				
 }
