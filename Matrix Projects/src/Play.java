@@ -4,8 +4,8 @@ public class Play
 static boolean gameNotFinished= true;
 		public static void main(String[] args)
 			{
-				
 				Board.prepareBoard();
+				System.out.println("X goes first. Type your coordinate.");
 				Board.displayBoard();
 				
 			while(gameNotFinished)
@@ -17,7 +17,6 @@ static boolean gameNotFinished= true;
 					User.O();
 					Board.displayBoard();
 					Check.isWonGame();
+				}
 			}
-
 	}
-}
