@@ -17,8 +17,5 @@ public class Check
 						System.out.println("Winner Winner Chicken Dinner!");
 						System.exit(0);
 						}
-					}	
-
-			
-
+					}
 	}

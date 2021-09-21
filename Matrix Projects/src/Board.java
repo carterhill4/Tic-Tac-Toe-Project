@@ -7,7 +7,7 @@ public class Board
 		public static void main(String[] args)
 		{
 			prepareBoard();
-			//board [2] [1] = "X";
+			board [2] [1] = "X";
 			displayBoard();
 		}
 	
